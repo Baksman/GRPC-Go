@@ -65,7 +65,8 @@ func main() {
 	// 		blogItem = NewBlog
 	// 	allBlogs = append(allBlogs, NewBlog)
 	// }
-marshalRes, err := json.Marshal(allBlogResponse.Blogs)
+
+	marshalRes, err := json.Marshal(allBlogResponse.Blogs)
 
 fmt.Printf("response of all blogs: %v\n", string(marshalRes))
 
